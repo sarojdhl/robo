@@ -1,8 +1,8 @@
-import React from './React';
+import React from 'react';
 import Cardlist from './Cardlist';
 import SearchBox from './SearchBox';
 
-class App extends Components {
+class App extends React.Component {
 	constructor(){
     	super()
     	this.state = {
